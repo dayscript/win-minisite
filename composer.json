@@ -21,6 +21,8 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/pathauto": "^1.8",
+        "drupal/redirect_after_login": "^2.6",
         "drupal/zurb_foundation": "^6.0"
     },
     "conflict": {
