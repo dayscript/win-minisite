@@ -1,0 +1,16 @@
+name: Vue Example Webpack
+machine_name: vue-example-webpack
+type: pdb
+description: 'Vue Example using Webpack 2 to compile .vue components into a single build.js file'
+package: Vue
+core: '8.x'
+module_status: active
+presentation: vue
+add_js:
+  footer:
+    'dist/build.js': {}
+
+# Information added by Drupal.org packaging script on 2020-06-06
+version: '8.x-1.0-alpha5'
+project: 'pdb_vue'
+datestamp: 1591402030

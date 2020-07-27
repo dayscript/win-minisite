@@ -1,0 +1,18 @@
+name: Opta Team Widgets Block
+machine_name: opta-team-widgets
+type: pdb
+description: 'Opta Team widgets block'
+package: Vue
+core: '8.x'
+module_status: active
+template: template.html
+presentation: vue
+contexts:
+  entity: node
+add_js:
+  footer:
+    'opta_team_widgets_block.js': {}
+libraries:
+  - optafeeds/axios
+  - optawidgets/opta.widgets
+  - optawidgets/opta.settings
