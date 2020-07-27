@@ -1,9 +1,0 @@
-name: Winsports Opta Sports Widgets
-type: module
-description: 'Opta sports widgets blocks'
-package: Custom
-core_version_requirement: ^8.8.0 || ^9.0
-
-dependencies:
-  pdb: pdb
-  pdb_vue: pdb_vue

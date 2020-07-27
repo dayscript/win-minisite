@@ -40,9 +40,9 @@ function winsports_preprocess_node(&$variables) {
  */
 function winsports_preprocess_page(&$variables) {
 	// Remove the "No front page content has been created yet.".
-	if ($variables['is_front']) {
+/*	if ($variables['is_front']) {
 		unset($variables['page']['content']['winsports_content']);
-	}
+	}*/
 }
 
 /**

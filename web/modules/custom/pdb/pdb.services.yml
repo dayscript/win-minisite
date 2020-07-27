@@ -1,7 +1,0 @@
-services:
-  pdb.component_discovery:
-    class: '\Drupal\pdb\ComponentDiscovery'
-    arguments:
-      - '@app.root'
-      - '@module_handler'
-      - '@info_parser'
