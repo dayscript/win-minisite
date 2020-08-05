@@ -1,1 +1,33 @@
 // Non-modular or client styles for .l-header region.
+.off-canvas-content{
+	padding-top: 8rem;
+}
+#header-fixed{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: $primary-color;
+	padding: 1rem;
+	z-index: 1;
+}
+#block-winsports-main-menu{
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+	ul:not(.contextual-links){
+		li{
+			a{
+				font-size: 0.9rem;
+				text-transform: uppercase;
+				color: #fff;
+				padding-left: .8rem;
+				padding-right: .8rem;
+			}
+			a.is-active{
+				color: $secondary-color;
+			}
+		}
+	}
+	.dropdown a{
+		background-color: $primary-color;
+	}
+}

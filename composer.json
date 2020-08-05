@@ -23,6 +23,7 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/ds": "^3.7",
+        "drupal/field_formatter_class": "^1.4",
         "drupal/jquery_ui_touch_punch": "^1.0",
         "drupal/login_redirect_per_role": "^1.7",
         "drupal/redirect_after_login": "^2.6",

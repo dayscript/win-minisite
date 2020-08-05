@@ -1,1 +1,24 @@
 // Non-modular or client styles for .l-footer region.
+footer.footer{
+	background-color: $primary-color;
+	padding: .75rem;
+	#block-menufooter{
+	    padding-top: .6rem;
+	    padding-bottom: .6rem;
+		ul:not(.contextual-links){
+			justify-content: center;
+			li{
+				a{
+					font-size: 0.9rem;
+					text-transform: uppercase;
+					color: #fff;
+					padding-left: 1rem;
+					padding-right: 1rem;
+				}
+				a.is-active{
+					color: $secondary-color;
+				}
+			}
+		}
+	}
+}
