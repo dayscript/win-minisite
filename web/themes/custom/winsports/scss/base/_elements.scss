@@ -7,21 +7,44 @@
 
 // Headings
 //------------------------------------------
-//h1, h2, h3,
-//h4, h5, h6 {}
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'Passion One', cursive;
+}
 h1, h2{
     font-size: 2.25rem;
     margin-bottom: .6rem;
     color: $primary-color;
     line-height: 1;
-    font-weight: 700;
 }
 .title{
     font-size: 2rem;
-    margin-bottom: .6rem;
+    margin-bottom: 1rem;
     color: $primary-color;
     line-height: 1;
     font-weight: 700;
+}
+.title-news{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.node--type-article{
+  .date{
+    padding: 1rem 0;
+    margin: 1rem 0;
+  }
+  .lead{
+    font-size: 1.125rem;
+    color: $primary-color;
+    font-style: italic;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+  }
+  .body{
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    color: #0b3b41;
+  }
 }
 .title-tags{
 	margin-bottom: 2rem;
@@ -36,6 +59,7 @@ h1, h2{
 .category {
 	margin-bottom: .5rem;
   a {
+    font-family: 'Source Sans Pro',sans-serif;
   	color: $primary-color;
   	font-size: .75rem;
   	text-transform: uppercase;
@@ -50,6 +74,10 @@ h1, h2{
     }
   }
 }
+.description{
+  margin: 1rem 0;
+}
+
 .date {
 	color: $primary-color;
     font-size: .875rem;
@@ -60,6 +88,14 @@ h1, h2{
     width: 20px;
     height: 14px;
   }
+}
+.button-full{
+  background-color: $secondary-color;
+  color: $primary-color;
+  padding: 2rem;
+  display: block;
+  margin: 2rem 5rem;
+  font-size: 1.5rem;
 }
 // Anchors
 //-----------------------------------------------------------------------------
@@ -103,7 +139,15 @@ h1, h2{
 // input[type="time"],
 // input[type="url"],
 // textarea {
-
 // }
-
+input[type="text"],
+textarea{
+  background-color: #EDEDED;
+  padding: .5rem 1.2rem;
+  height: 47px;
+}
+input::placeholder,
+textarea::placeholder{
+  color: #97AEB1;
+}
 // select {}

@@ -3,3 +3,38 @@
 		margin-bottom: 2rem;
 	}
 }
+.faq{
+	form{
+		margin: 1rem 0 2rem;
+	}
+	.accordion{
+		margin: 0;
+		.accordion-title{
+			border-bottom: 1px solid $primary-color !important;
+		    border-top: none;
+		    border-left: none;
+		    border-right: none;
+		    padding: 1rem 0;
+		    &:before{
+		    	top: 0;
+		    	font-size: 2rem;
+		    	transform: translateY(45%);
+		    }
+		    > div{
+				font-size: 1rem;
+				text-transform: uppercase;
+				font-weight: 700;
+		    }
+		}
+		.accordion-content{
+			border: none;
+			.accordion-title{
+				font-weight: 700;
+				border-bottom: 1px solid #e3e3e3 !important;
+			}
+		}
+	}
+	footer{
+		margin-top: 2rem;
+	}
+}

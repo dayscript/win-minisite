@@ -12,6 +12,7 @@ base theme: zurb_foundation
 # need to add custom CSS or JS
 libraries:
  - winsports/global
+ - winsports/fonts
 
 # Regions are output in the page.html.twig
 
