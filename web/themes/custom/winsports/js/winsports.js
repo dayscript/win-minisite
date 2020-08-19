@@ -57,6 +57,7 @@
 		         .end().filter("[href='#"+id+"']").parent().addClass("active");
 		   }                   
 		});
+		$(".field-node--field-mediastream, .field-node--field-url-youtube").parent('.node').find(".field-node--field-image").addClass("hidden");
     }
   };
 

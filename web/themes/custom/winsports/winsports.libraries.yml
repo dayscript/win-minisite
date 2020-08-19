@@ -9,3 +9,12 @@ fonts:
   css:
     theme:
       '//fonts.googleapis.com/css?family=Passion+One|Source+Sans+Pro:300,400,600,700&display=swap': { type: external, minified: true }
+global-scripts:
+  remote: https://platform.s-mdstrm.com/js/player_api.js?asksld=sasd
+  version: 1.0
+  license:
+    name: MIT
+  js:
+    https://platform.s-mdstrm.com/js/player_api.js?asksld=sasd: { type: external, minified: true }
+  dependencies:
+    - core/jquery

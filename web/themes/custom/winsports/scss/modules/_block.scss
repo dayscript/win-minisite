@@ -41,3 +41,28 @@
 		margin-top: 2rem;
 	}
 }
+#block-views-block-programas-win-sports-block-1{
+	.programas{
+		.date{
+			margin: 1rem 0; 
+		}
+		.lead{
+			font-size: .875rem;
+			font-weight: 600;
+		}
+	}
+	ul.js-pager__items.pager{
+		list-style: none;
+		text-align: center;
+	}
+}
+.node--type-programas-win-sports-{
+	.date{
+		display: flex;
+		margin: 1rem 0;
+		align-items: center;
+	}
+	.field-name-field-lead{
+		font-weight: 600;
+	}
+}
