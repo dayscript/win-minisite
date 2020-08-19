@@ -58,6 +58,9 @@
 		   }                   
 		});
 		$(".field-node--field-mediastream, .field-node--field-url-youtube").parent('.node').find(".field-node--field-image").addClass("hidden");
+		$(document, context).once('winsports').ajaxStop(function() {
+			console.log('entro')
+		});
     }
   };
 
