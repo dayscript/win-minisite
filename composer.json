@@ -27,6 +27,7 @@
         "drupal/login_redirect_per_role": "^1.7",
         "drupal/redirect_after_login": "^2.6",
         "drupal/search_api": "^1.17",
+        "drupal/smtp": "^1.0@RC",
         "drupal/views_accordion": "^2.0",
         "drupal/webform": "^6.0",
         "drupal/zurb_foundation": "^6.0"
