@@ -22,6 +22,7 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/devel": "^4.0",
         "drupal/ds": "^3.7",
         "drupal/jquery_ui_touch_punch": "^1.0",
         "drupal/login_redirect_per_role": "^1.7",
