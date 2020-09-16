@@ -1,0 +1,19 @@
+<?php
+
+use \Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function form_alter_login_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'user_login_form' ) {
+    $form['default_value']['widget'][1] = array(
+    	'#type' => 'checkbox',
+        '#title' => t('Acepto <a href="/politica-de-uso" target="_blank">Política de uso</a>'),
+        '#size' => 10,
+        '#maxlength' => 255,
+        '#required' => TRUE,
+        //'#description' => '<p>' . t('Your checkbox altered.') . '</p>',
+    );
+  }
+}
